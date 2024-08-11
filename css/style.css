@@ -1,0 +1,528 @@
+@font-face {
+    font-family: "Opensans";
+    src:
+        local("Opensans"),
+        url("../fonts/open-sans.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Opensans";
+    src:
+        local("Opensans"),
+        url("../fonts/open-sans-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src:
+        local("BebasNeue"),
+        url("../fonts/bebas-neue-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    width: 941px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: #00A4E5;
+
+}
+
+.textStyle__footer {
+    font-family: OpenSans;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: left;
+}
+
+.textStyle__footer__links {
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: left;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-inner {
+    padding: 41px 0 71px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    color: #FFF;
+    font-family: BebasNeue;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+.header-text h2 {
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+
+    font-family: OpenSans;
+    line-height: 18.75px;
+
+}
+
+.header-inner p {
+    font-family: OpenSans;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3.7px;
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.nav-inner {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-links li a {
+    color: rgb(72, 85, 91);
+    font-family: OpenSans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 1.09px;
+    text-align: center;
+}
+
+.nav-links li a:hover {
+    transition: 0.5s;
+    color: rgb(0, 164, 229);
+    font-family: OpenSans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 1.09px;
+    text-align: center;
+}
+
+.story {
+    height: 520px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.story-inner {
+    padding-top: 58px;
+    padding-bottom: 118px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-heading {
+    width: 124px;
+    height: 31px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-heading h1 {
+    color: #48555B;
+    font-family: OpenSans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: 2.3062498569488525px;
+    text-align: center;
+}
+
+.story-heading-border {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(0, 164, 229);
+}
+
+.story-bottom {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 224px;
+}
+
+.story-text {
+    width: 406px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.story-text h1 {
+    font-family: OpenSans;
+    color: rgb(72, 85, 91);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 0.18750004470348358px;
+    text-align: left;
+}
+
+.story-text h1 span {
+    font-family: OpenSans;
+    color: rgb(22, 172, 232);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 0.17045459151268005px;
+    text-align: left;
+}
+
+.story-text p {
+    font-family: OpenSans;
+    font-weight: 400;
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.18750004470348358px;
+    text-align: left;
+
+}
+
+.story-cards {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.story-card1 {
+    width: 140px;
+    height: 224px;
+    background-image: url(../images/bg_storyCard1.png);
+    padding: 15px 0 0 15px;
+}
+
+.story-card2 {
+    width: 140px;
+    height: 224px;
+    background-image: url(../images/bg_storyCard2.png);
+    padding: 15px 0 0 15px;
+}
+
+.story-card3 {
+    width: 140px;
+    height: 224px;
+    background-image: url(../images/bg_storyCard3.png);
+    padding: 15px 0 0 15px;
+}
+
+.story-card h1 {
+    font-family: OpenSans;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.18750004470348358px;
+    text-align: left;
+}
+
+.capabilites {
+    height: 561px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.capabilites-inner {
+    padding-bottom: 115px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.capabilites-top {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.capabilites-heading {
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #48555B;
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: 2.3062498569488525px;
+    text-align: left;
+}
+
+.capabilites-heading span {
+    width: 50px;
+    border-bottom: 2px solid #00A4E5;
+}
+
+.capabilites-top-right {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 587px;
+}
+
+.capabilites-top-right p {
+    width: 405px;
+    font-family: OpenSans;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    font-weight: 400;
+    color: #48555B;
+}
+
+.capabilites-bottom {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 330px;
+}
+
+.capabilites-card {
+    width: 295px;
+    height: 330px;
+    padding: 38px 22px 39px 23px;
+    border: 1px solid #e3e3e3;
+}
+
+.capabilites-card img {
+    margin-bottom: 25px;
+}
+
+.capabilites-card h1 {
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #48555B;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4266666769981384px;
+    text-align: left;
+    margin-bottom: 13px;
+    width: 250px;
+}
+
+.capabilites-card p {
+    font-family: OpenSans;
+    font-weight: 400;
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.18750004470348358px;
+    text-align: left;
+}
+
+.proposal {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/bg-proposal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.proposal__inner {
+    height: 500px;
+    width: 100%;
+    padding: 120px 0 233px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proposal__inner h1 {
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #48555B;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+}
+
+footer {
+    height: 400px;
+}
+
+.form {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(23, 24, 25);
+}
+
+.form__inner {
+    height: 100px;
+    padding: 30px 0;
+    width: 685px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__inner h1 {
+    font-family: OpenSans;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: 0.8461539149284363px;
+    text-align: center;
+}
+
+.form__inner form {
+    background-color: #FFF;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.form__inner form input {
+    background-color: #FFF;
+    width: 250px;
+    height: 40px;
+    padding: 10px 16px;
+}
+
+.information {
+    height: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #141A20;
+}
+
+.information__inner {
+    height: 240px;
+    padding: 42px 0 50px 0;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.information__company {
+    width: 250px;
+    height: 148px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.information__links {
+    width: 262px;
+    height: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.information-links {
+    width: 262px;
+    height: 126px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.information-links ul {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.information-links div {
+    width: 154px;
+    height: 70px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.information-links div ul {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.information__contact {
+    width: 141px;
+    height: 158px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.information__social {
+    width: 100px;
+    height: 100px;
+    margin: 30px 0 28px 0;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.rights {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 24, 25);
+}
